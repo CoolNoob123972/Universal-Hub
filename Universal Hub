@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "🌌Universal Hub🌌", HidePremium = false, SaveConfig = true, IntroText = "🌌Universal Hub🌌", ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "🌌Universal Hub🌌 | Version: 0.0.1", HidePremium = false, SaveConfig = true, IntroText = "🌌Universal Hub🌌 | Version: 0.0.1", ConfigFolder = "OrionTest"})
 
 local HomeTab = Window:MakeTab({
 	Name = "Home",
@@ -236,10 +236,10 @@ local meSection = meTab:AddSection({
 
 
 meTab:AddButton({
-	Name = "Haxker 666 hub (check console for key) ",
+	Name = "Haxker 666 hub (key will be on your keyboard after clicking) ",
 	Callback = function()
               loadstring(game:HttpGet('https://paste.website/p/f4c0bdd2-0340-4009-bf57-5d23d362aa94.txt'))()
-              print("Haxker_6666666HUB-zOq0RLP09a9zf0 is the key")
+              setclipboard("Haxker_6666666HUB-zOq0RLP09a9zf0")
       end
 })
 
@@ -261,10 +261,10 @@ meTab:AddButton({
 
 
 meTab:AddButton({
-	Name = "Vex-Hub (key in console) ",
+	Name = "Vex-Hub (key is in your clipboard after clicking) ",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/V31nc/2642/Created/VHub"))()
-      print("Key is IStealSpermsInSpermBanksForMoney weird asf")
+      setclipboard("IStealSpermsInSpermBanksForMoney")
       end
 })
 
