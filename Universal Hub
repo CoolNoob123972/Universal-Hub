@@ -644,6 +644,11 @@ local bTab = Window:MakeTab({
 })
 
 
+local bSection = broTab:AddSection({
+	Name = "K.A.T"
+})
+
+
 bTab:AddButton({
 	Name = "Jn HH K.A.T",
 	Callback = function()
@@ -653,7 +658,7 @@ bTab:AddButton({
 
 
 local broTab = Window:MakeTab({
-	Name = "Brookhaven",
+	Name = "Brookhaven 🏡RP",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
