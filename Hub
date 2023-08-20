@@ -284,7 +284,7 @@ local AdminTab = Window:MakeTab({
 })
 
 
-local AdminSection = Tab:AddSection({
+local AdminSection = AdminTab:AddSection({
 	Name = "Admin Scripts"
 })
 
