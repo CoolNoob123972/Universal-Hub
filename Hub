@@ -284,6 +284,11 @@ local AdminTab = Window:MakeTab({
 })
 
 
+local AdminSection = Tab:AddSection({
+	Name = "Admin Scripts"
+})
+
+
 AdminTab:AddButton({
 	Name = "Nameless Admin",
 	Callback = function()
