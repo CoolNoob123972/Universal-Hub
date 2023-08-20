@@ -1,7 +1,7 @@
 loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/littlegui/main/FPS-Counter'))()
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "🌌Universal Hub🌌 | Version: 0.0.1", HidePremium = false, SaveConfig = true, IntroText = "🌌Universal Hub🌌 | Version: 0.0.1", ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Universal Hub | Version: 0.0.1", HidePremium = false, SaveConfig = true, IntroText = "Universal Hub | Version: 0.0.1", ConfigFolder = "OrionTest"})
 
 local HomeTab = Window:MakeTab({
 	Name = "Home",
@@ -579,7 +579,7 @@ local yesSection = yesTab:AddSection({
 yesTab:AddButton({
 	Name = "c*ms",
 	Callback = function()
-      		setclipboard("cuðŒœ ðŒœ ðŒœÂ» hitler ms")
+      		setclipboard("cu𐌜 𐌜 𐌜» hitler ms")
   	end    
 })
 
@@ -587,70 +587,70 @@ yesTab:AddButton({
 yesTab:AddButton({
 	Name = "p*nis",
 	Callback = function()
-      		setclipboard("Ñ€Ðµnis")
+      		setclipboard("реnis")
   	end    
 })
 
 yesTab:AddButton({
 	Name = "A*s",
 	Callback = function()
-      		setclipboard("aðŒœ ðŒœ ðŒœÂ» hitler ss")
+      		setclipboard("a𐌜 𐌜 𐌜» hitler ss")
   	end    
 })
 
 yesTab:AddButton({
 	Name = "F*cking",
 	Callback = function()
-      		setclipboard("fðŒœ ðŒœ ðŒœÂ» hitler uckðŒœ ðŒœ ðŒœÂ» hitler ing")
+      		setclipboard("f𐌜 𐌜 𐌜» hitler uck𐌜 𐌜 𐌜» hitler ing")
   	end    
 })
 
 yesTab:AddButton({
 	Name = "B*obs",
 	Callback = function()
-      		setclipboard("boðŒœ ðŒœ ðŒœÂ» hitler oðŒœ ðŒœ ðŒœÂ» hitler bs")
+      		setclipboard("bo𐌜 𐌜 𐌜» hitler o𐌜 𐌜 𐌜» hitler bs")
   	end    
 })
 
 yesTab:AddButton({
 	Name = "v*gina",
 	Callback = function()
-      		setclipboard("vaðŒœ ðŒœ ðŒœÂ» hitler gina")
+      		setclipboard("va𐌜 𐌜 𐌜» hitler gina")
   	end    
 })
 
 yesTab:AddButton({
 	Name = "N word",
 	Callback = function()
-      		setclipboard("niðŒœ ðŒœ ðŒœÂ» hitler gðŒœ ðŒœ ðŒœÂ» hitler ga")
+      		setclipboard("ni𐌜 𐌜 𐌜» hitler g𐌜 𐌜 𐌜» hitler ga")
   	end    
 })
 
 yesTab:AddButton({
 	Name = "F*ck",
 	Callback = function()
-      		setclipboard("fðŒœ ðŒœ ðŒœÂ» hitler uckðŒœ ðŒœ ðŒœÂ» hitler")
+      		setclipboard("f𐌜 𐌜 𐌜» hitler uck𐌜 𐌜 𐌜» hitler")
   	end    
 })
 
 yesTab:AddButton({
 	Name = "B*tch",
 	Callback = function()
-      		setclipboard("bitðŒœ ðŒœ ðŒœÂ» hitler ch")
+      		setclipboard("bit𐌜 𐌜 𐌜» hitler ch")
   	end    
 })
 
 yesTab:AddButton({
 	Name = "C*ck",
 	Callback = function()
-      		setclipboard("coðŒœ ðŒœ ðŒœÂ» hitler ck")
+      		setclipboard("co𐌜 𐌜 𐌜» hitler ck")
   	end    
 })
 
 yesTab:AddButton({
 	Name = "F*ggot",
 	Callback = function()
-      		setclipboard("faðŒœ ðŒœ ðŒœÂ» hitler ggotðŒœ ðŒœ ðŒœÂ» hitler")
+      		setclipboard("fa𐌜 𐌜 𐌜» hitler ggot𐌜 𐌜 𐌜» hitler")
   	end    
 })
 
@@ -734,7 +734,7 @@ bTab:AddButton({
 
 
 local broTab = Window:MakeTab({
-	Name = "Brookhaven 🏡RP",
+	Name = "Brookhaven RP",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
