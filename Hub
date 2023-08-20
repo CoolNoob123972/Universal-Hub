@@ -9,8 +9,6 @@ local HomeTab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddParagraph("Updates","Added many things!!!")
-
 local GameId = game.PlaceId 
 local GameName = 
 game:GetService("MarketplaceService"):GetProductInfo(GameId).Name 
