@@ -1,13 +1,16 @@
 loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/littlegui/main/FPS-Counter'))()
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Universal Hub | Version: 0.0.1", HidePremium = false, SaveConfig = true, IntroText = "Universal Hub | Version: 0.0.1", ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Universal Hub | Version: 0.0.0", HidePremium = false, SaveConfig = true, IntroEnabled = false, ConfigFolder = "OrionTest"})
 
 local HomeTab = Window:MakeTab({
 	Name = "Home",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+
+Tab:AddParagraph("Updates","Added many things!!!")
+
 local GameId = game.PlaceId 
 local GameName = 
 game:GetService("MarketplaceService"):GetProductInfo(GameId).Name 
@@ -25,7 +28,7 @@ local HomeSection = HomeTab:AddSection({
 })
 
 
-HomeTab:AddLabel("Hello " .. plrname .. "! ")
+HomeTab:AddLabel("Welcome to Universal Hub " .. plrname .. "! ")
 HomeTab:AddLabel("Username: " .. plrname .. " ")
 HomeTab:AddLabel("Account Age: " .. plrage .. " ")
 HomeTab:AddLabel("Display Name: " .. plr.DisplayName .. " ")
@@ -97,7 +100,7 @@ Tab:AddSlider({
 	Name = "Field Of View",
 	Min = 0,
 	Max = 120,
-	Default = 80,
+	Default = 70,
 	Color = Color3.fromRGB(255,255,255),
 	Increment = 1,
 	ValueName = "Fov",
@@ -150,7 +153,7 @@ Tab:AddTextbox({
 Tab:AddButton({
 	Name = "Health Regen",
 	Callback = function()
-      		game.Players.LocalPlayer.Character.Humanoid.Health = 100
+      		game.Players.LocalPlayer.Character.Humanoid.Health = 999999999
   	end    
 })
 
@@ -323,7 +326,15 @@ meTab:AddButton({
 meTab:AddButton({
 	Name = "shakars hub",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/Protected-File/main/V4",true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/USH.P/main/rotected",true))()
+      end
+})
+
+
+meTab:AddButton({
+	Name = "Peruanito.Exe",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/i4mitty/Peruanito.exe/main/Peruanito.exe.lua"))()
       end
 })
 
@@ -362,6 +373,14 @@ meTab:AddButton({
 
 
 meTab:AddButton({
+	Name = "Ghost Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-GhostHub-10910"))()
+  	end    
+})
+
+
+meTab:AddButton({
 	Name = "Sirius Hub",
 	Callback = function()
       		loadstring(game:HttpGet('https://sirius.menu/script'))();
@@ -378,14 +397,22 @@ meTab:AddButton({
 
 
 local haTab = Window:MakeTab({
-	Name = "Scripts",
+	Name = "Fe Scripts",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
 
 local haSection = haTab:AddSection({
-	Name = "Scripts"
+	Name = "Fe Scripts"
+})
+
+
+haTab:AddButton({
+	Name = "Hat Fling",
+	Callback = function()
+      		loadstring(game:HttpGet('https://gist.githubusercontent.com/1BlueCat/544f7efbe88235666b5b7add65b7344d/raw/f20804bb85542dcc3bc938982e1f05b7ff05cded/FE%2520Hat%2520Fling'))()
+  	end    
 })
 
 
@@ -393,6 +420,14 @@ haTab:AddButton({
 	Name = "Fe Fling",
 	Callback = function()
       		loadstring(game:HttpGet("https://pastebin.com/raw/Ud1cg5pR"))()
+  	end    
+})
+
+
+haTab:AddButton({
+	Name = "Permanent Tp Tool",
+	Callback = function()
+      		while true do wait(1) mouse = game.Players.LocalPlayer:GetMouse() tool = Instance.new("Tool") tool.RequiresHandle = false tool.Name = "Permanent Tp Tool" tool.Activated:connect(function() local pos = mouse.Hit+Vector3.new(0,2.5,0) pos = CFrame.new(pos.X,pos.Y,pos.Z) game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos end) tool.Parent = game.Players.LocalPlayer.Backpack end
   	end    
 })
 
@@ -709,6 +744,34 @@ ezTab:AddButton({
 	Name = "Fly Gui V3",
 	Callback = function()
       		loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro69Yes/sussy-Script/main/SecuredFlyGuiv3.lua'))()
+  	end    
+})
+
+
+local keTab = Window:MakeTab({
+	Name = "Keyboard",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local keSection = keTab:AddSection({
+	Name = "Keyboard Scripts"
+})
+
+
+keTab:AddButton({
+	Name = "Keyboard v1",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+  	end    
+})
+
+
+keTab:AddButton({
+	Name = "Keyboard v2",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://pastebin.com/raw/SxgKjiRT'),true))()
   	end    
 })
 
